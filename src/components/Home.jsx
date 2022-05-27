@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import styles from './Home.module.css'
-import pdf from '../assets/Facundo Leonel Figueroa - CV - Full Stack Developer.pdf'
+import pdf from '../assets/CV.pdf'
 
 export default function Home() {
   return (
