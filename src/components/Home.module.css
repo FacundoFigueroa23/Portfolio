@@ -1,0 +1,59 @@
+.container {
+    min-height: 100vh;
+
+    background-color: darkgray;
+    color: white;
+
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.125rem;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 2rem;
+}
+
+.buttons {
+    height: 9rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 3.5rem;
+
+    text-align: center;
+}
+
+.subTitle {
+    font-size: 2rem;
+}
+
+.button {
+    height: 4rem;
+
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.8rem;
+
+    background-color: blueviolet;
+    color: white;
+
+    border-radius: 1.5rem;
+    border: none;
+
+    cursor: pointer;
+}
