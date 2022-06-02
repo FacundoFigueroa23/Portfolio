@@ -1,14 +1,18 @@
 import React from 'react'
 import styles from './NavBar.module.css'
 
-export default function NavBar() {
+const es = ["Inicio", "Sobre Mi", "Tecnologias", "Proyectos", "Contacto", "EN"]
+const en = ["Home", "About Me", "Technologies", "Projets", "Contact", "ES"]
+
+export default function NavBar({lang, changeLang}) {
   return (
     <div className={styles.container}>
-      <p className={styles.section}>Inicio</p>
-      <p className={styles.section}>Sobre Mi</p>
-      <p className={styles.section}>Tecnologias</p>
-      <p className={styles.section}>Proyectos</p>
-      <p className={styles.section}>Contacto</p>
+      <p className={styles.section}>{lang ? es[0] : en[0]}</p>
+      <p className={styles.section}>{lang ? es[1] : en[1]}</p>
+      <p className={styles.section}>{lang ? es[2] : en[2]}</p>
+      <p className={styles.section}>{lang ? es[3] : en[3]}</p>
+      <p className={styles.section}>{lang ? es[4] : en[4]}</p>
+      <button onClick={() => {changeLang()}} className={styles.button}>{lang ? es[5] : en[5]}</button>
     </div>
   )
 }

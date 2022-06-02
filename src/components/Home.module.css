@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
 
-    padding-top: 2rem;
+    padding: 2rem;
 }
 
 .buttons {
@@ -31,6 +31,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    padding: 2rem;
 }
 
 .title {

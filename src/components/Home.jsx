@@ -3,23 +3,26 @@ import NavBar from './NavBar'
 import styles from './Home.module.css'
 import pdf from '../assets/CV.pdf'
 
-export default function Home() {
+const es = ["Hola! Mi nombre es", "y soy", "Desarrollador Full Stack", "Descarga mi CV", "Contrátame"]
+const en = ["Hi! My name is", "and I'm", "Full Stack Developer", "Download my Resume", "Hire Me"]
+
+export default function Home({lang, changeLang}) {
   return (
     <div className={styles.container}>
-        <NavBar/>
+        <NavBar lang={lang} changeLang={changeLang}/>
         <section className={styles.content}>
           <div className={styles.subContent}>
-            <h3 className={styles.subTitle}>Hola! Mi nombre es</h3>
+            <h3 className={styles.subTitle}>{lang ? es[0] : en[0]}</h3>
             <h1 className={styles.title}>Facundo Leonel Figueroa</h1>
-            <h3 className={styles.subTitle}>y soy</h3>
-            <h1 className={styles.title}>Full Stack Developer</h1>
+            <h3 className={styles.subTitle}>{lang ? es[1] : en[1]}</h3>
+            <h1 className={styles.title}>{lang ? es[2] : en[2]}</h1>
           </div>
           <div className={styles.buttons}>
             <a href={pdf} target='_blank' rel='noreferrer'>
-              <button className={styles.button}>Descarga mi CV</button>
+              <button className={styles.button}>{lang ? es[3] : en[3]}</button>
             </a>
             <a href='https://www.linkedin.com/in/facundo-figueroa-dev' target='_blank' rel='noreferrer'>
-              <button className={styles.button}>Contratame</button>
+              <button className={styles.button}>{lang ? es[4] : en[4]}</button>
             </a>
           </div>
         </section>
