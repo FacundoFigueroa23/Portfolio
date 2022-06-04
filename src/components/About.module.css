@@ -1,0 +1,35 @@
+.container {
+    min-height: 100vh;
+
+    background-color: darkgray;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    width: 50%;
+
+    text-align: center;
+
+    color: black;
+
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5rem;
+
+    padding: 2rem;
+}
+
+.imgContainer img {
+    width: 20rem;
+    height: 20rem;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    padding: 2rem;
+}

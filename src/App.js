@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 import './App.css';
 
+import About from './components/About';
 import Home from './components/Home';
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
   return (
     <div className='container'>
       <Home lang={lang} changeLang={changeLang}/>
+      <About lang={lang}/>
     </div>
   )
 }
