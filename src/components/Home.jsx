@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import styles from './Home.module.css'
-import pdf from '../assets/CV.pdf'
+import pdf from '../assets/FacundoLeonelFigueroa-CV.pdf'
 
 const es = ["Hola! Mi nombre es", "y soy", "Desarrollador Full Stack", "Descarga mi CV", "Contrátame"]
 const en = ["Hi! My name is", "and I'm", "Full Stack Developer", "Download my Resume", "Hire Me"]
@@ -18,11 +18,11 @@ export default function Home({lang, changeLang}) {
             <h1 className={styles.title}>{lang ? es[2] : en[2]}</h1>
           </div>
           <div className={styles.buttons}>
-            <a href={pdf} target='_blank' rel='noreferrer'>
-              <button className={styles.button}>{lang ? es[3] : en[3]}</button>
+            <a className={styles.button} href={pdf} target='_blank' rel='noreferrer'>
+              {lang ? es[3] : en[3]}
             </a>
-            <a href='https://www.linkedin.com/in/facundo-figueroa-dev' target='_blank' rel='noreferrer'>
-              <button className={styles.button}>{lang ? es[4] : en[4]}</button>
+            <a className={styles.button} href='https://www.linkedin.com/in/facundo-figueroa-dev' target='_blank' rel='noreferrer'>
+              {lang ? es[4] : en[4]}
             </a>
           </div>
         </section>
