@@ -1,0 +1,13 @@
+.container {
+    min-height: 100vh;
+
+    background-color: darkgray;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding-top: 4rem;
+}
