@@ -8,7 +8,7 @@ export default function NavBar({lang, changeLang}) {
   return (
     <div className={styles.container}>
       <p className={styles.section}>{lang ? es[0] : en[0]}</p>
-      <p className={styles.section}>{lang ? es[1] : en[1]}</p>
+      <a href='#about' className={styles.section}>{lang ? es[1] : en[1]}</a>
       <p className={styles.section}>{lang ? es[2] : en[2]}</p>
       <p className={styles.section}>{lang ? es[3] : en[3]}</p>
       <p className={styles.section}>{lang ? es[4] : en[4]}</p>
