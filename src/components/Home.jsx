@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import styles from './Home.module.css'
-import pdf from '../assets/FacundoLeonelFigueroa-CV.pdf'
+import pdf from '../assets/FacundoLeonelFigueroa-CV-FullStackDeveloper.pdf'
 
 const es = ["Hola! Mi nombre es", "y soy", "Desarrollador Full Stack", "Descarga mi CV", "Contrátame"]
 const en = ["Hi! My name is", "and I'm", "Full Stack Developer", "Download my Resume", "Hire Me"]
