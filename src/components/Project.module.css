@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding: 1rem 0 2rem 0;
+}
+
+.image {
+    height: 15rem;
+
+    border-radius: 1rem;
+
+    box-shadow: 1rem 1rem 2rem #7F8487;
+}
+
+.content {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.8rem;
+
+    margin: 0;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.text {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.25rem;
+
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.buttons {
+    width: 8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.iconButton {
+    height: 2.5rem;
+
+    background-color: white;
+
+    border: none;
+}
+
+.icon {
+    height: 2rem;
+}
+
+@media screen and (max-width: 1091px) {
+    .content {
+        width: 100%;
+    }
+
+    .image {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .image {
+        height: 13.5rem;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .image {
+        height: 11rem;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .image {
+        height: 10rem;
+    }
+}

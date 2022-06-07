@@ -31,6 +31,9 @@
 .button {
     height: 2.1rem;
 
+    background-color: blueviolet;
+    color: white;
+
     border: none;
     border-radius: 50%;
 
@@ -41,8 +44,8 @@
 }
 
 .button:hover {
-    background-color: blueviolet;
-    color: white;
+    background-color: white;
+    color: black;
 
     transition: all .5s ease-in-out;
 }

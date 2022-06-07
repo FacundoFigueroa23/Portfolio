@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/Home';
 import About from './components/About';
 import Technologies from './components/Technologies';
+import Projects from './components/Projects';
 
 export default function App() {
   const [lang, setLang] = useState(true)
@@ -20,7 +21,8 @@ export default function App() {
     <div className='container'>
       <Home lang={lang} changeLang={changeLang}/>
       <About lang={lang}/>
-      <Technologies />
+      <Technologies lang={lang}/>
+      <Projects lang={lang}/>
     </div>
   )
 }

@@ -10,7 +10,7 @@ export default function NavBar({lang, changeLang}) {
       <p className={styles.section}>{lang ? es[0] : en[0]}</p>
       <a href='#about' className={styles.section}>{lang ? es[1] : en[1]}</a>
       <a href='#technologies' className={styles.section}>{lang ? es[2] : en[2]}</a>
-      <p className={styles.section}>{lang ? es[3] : en[3]}</p>
+      <a href='#projects' className={styles.section}>{lang ? es[3] : en[3]}</a>
       <p className={styles.section}>{lang ? es[4] : en[4]}</p>
       <button onClick={() => {changeLang()}} className={styles.button}>{lang ? es[5] : en[5]}</button>
     </div>
