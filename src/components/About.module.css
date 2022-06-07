@@ -1,16 +1,30 @@
 .container {
     min-height: 100vh;
 
-    background-color: darkgray;
+    background-color: white;
 
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
 }
 
+.title {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
 .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text {
     width: 50%;
 
     text-align: center;
@@ -32,4 +46,10 @@
     object-fit: cover;
 
     padding: 2rem;
+}
+
+@media screen and (max-width: 912px) {
+    .text {
+        width: 100%;
+    }
 }
