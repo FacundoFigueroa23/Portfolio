@@ -21,7 +21,7 @@ export default function Home({lang, changeLang}) {
             <a className={styles.button} href={pdf} target='_blank' rel='noreferrer'>
               {lang ? es[3] : en[3]}
             </a>
-            <a className={styles.button} href='https://www.linkedin.com/in/facundo-figueroa-dev' target='_blank' rel='noreferrer'>
+            <a className={styles.button} href='#contact'>
               {lang ? es[4] : en[4]}
             </a>
           </div>
