@@ -16,3 +16,9 @@ label {
     font-family: 'Questrial', sans-serif;
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 816px) {
+    .iconImage {
+        height: 5rem;
+    }
+}

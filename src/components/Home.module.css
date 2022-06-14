@@ -69,3 +69,23 @@
 
     box-shadow: 0.3rem 0.3rem 1rem #7F8487;
 }
+
+@media screen and (max-width: 1088px) and (min-width: 676px) {
+    .subTitle {
+        margin: 1rem 0 1rem;
+    }
+
+    .title {
+        margin: 2rem 0 2rem;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .subTitle {
+        margin: 0.5rem 0 0.5rem;
+    }
+
+    .title {
+        margin: 1rem 0 1rem;
+    }
+}
