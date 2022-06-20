@@ -11,7 +11,7 @@ export default function Projects({lang}) {
 
       <Project name='To Do App' 
       url='https://res.cloudinary.com/mis-fotos/image/upload/v1651255732/To%20Do%20App/To_Do_App_ipkary.jpg' 
-      technologies='React, CSS, HTML, Javascript' 
+      technologies='React, CSS, HTML, Javascript, Local storage' 
       description='App de tareas en la que se pueden crear y borrar estas.' 
       github='https://github.com/FacundoFigueroa23/To-Do-App' 
       deploy='https://to-do-app-98.vercel.app' lang={lang}/>
@@ -33,8 +33,14 @@ export default function Projects({lang}) {
       <Project name='Henry Pokemon App' 
       url='https://res.cloudinary.com/mis-fotos/image/upload/v1654603781/Henry%20Pokemon/Henry_Pokemon_App_qpgmii.jpg' 
       technologies='React, Redux, CSS, HTML, Javascript, NodeJS, Express, PostgreSQL, Sequelize, PokeApi' 
-      description='App en la que se pueden ver pokemons, filtrarlos, ordenarlos, crear nuevos pokemons, entre otras funcionalidades.' 
+      description='Projecto individual del bootcamp de Soy Henry en el que se pueden ver pokemons, filtrarlos, ordenarlos, crear nuevos pokemons, entre otras funcionalidades.' 
       github='https://github.com/FacundoFigueroa23/Henry-Pokemon-App' lang={lang}/>
+
+      <Project name='Estilo Propio E-commerce' 
+      url='https://res.cloudinary.com/mis-fotos/image/upload/v1655384913/Estilo_propio_b2511y.jpg' 
+      technologies='Javascript, NodeJS, Express, MongoDB, Mongoose, Mercado pago SDK' 
+      description='Proyecto final del bootcamp de Soy Henry.' 
+      github='https://github.com/BusquetsLA/Proyecto-Grupal-Henry/tree/dev' lang={lang}/>
     </div>
   )
 }
