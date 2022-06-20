@@ -22,7 +22,7 @@ export default function App() {
   }, [lang])
   return (
     <div className='container'>
-      <ScrollToTop smooth style={{backgroundColor: 'black'}}
+      <ScrollToTop smooth style={{backgroundColor: 'black', borderRadius: '50%'}}
       component={<img src='https://api.iconify.design/uiw:caret-up.svg?color=%23ffffff' alt='CaretUp' />}/>
       <Home lang={lang} changeLang={changeLang}/>
       <About lang={lang}/>
