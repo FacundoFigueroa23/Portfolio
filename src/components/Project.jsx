@@ -8,7 +8,7 @@ export default function Project({name, url, description, technologies, github, d
         <img className={styles.image} src={url} alt={name} />
         <div className={styles.content}>
             <p className={styles.title}>{name}</p>
-            <p className={styles.text}>{description}</p>
+            <p className={styles.text}>{lang ? description[0] : description[1]}</p>
             <p className={styles.text}>{lang ? `Tecnologías: ${technologies}` : `Technologies: ${technologies}`}</p>
             <section className={styles.buttons}>
               <a href={github} target='_blank' rel='noreferrer' className={styles.iconButton}>
