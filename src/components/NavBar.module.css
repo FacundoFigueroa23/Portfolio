@@ -28,6 +28,24 @@
     transition: all .5s ease-in-out;
 }
 
+.sectionButton {
+    background: none;
+
+    color: white;
+
+    cursor: pointer;
+
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.125rem;
+}
+
+.sectionButton:hover {
+    color: blueviolet;
+
+    transition: all .5s ease-in-out;
+}
+
 .button {
     height: 2.1rem;
 
