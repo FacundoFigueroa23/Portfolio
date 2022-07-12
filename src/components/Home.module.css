@@ -67,7 +67,27 @@
 
     text-decoration: none;
 
-    box-shadow: 0.3rem 0.3rem 1rem #7F8487;
+    box-shadow: 0.2rem 0.2rem 0.5rem #7F8487;
+}
+
+.secondButton {
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.8rem;
+
+    background-color: white;
+    color: blueviolet;
+
+    border: none;
+
+    cursor: pointer;
+
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1088px) and (min-width: 676px) {
