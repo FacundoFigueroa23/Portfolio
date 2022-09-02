@@ -8,7 +8,8 @@
     justify-content: space-around;
 
     background-color: black;
-    /* color: white; */
+    position: sticky;
+    top: 0;
 
     font-family: 'Questrial', sans-serif;
     font-size: 1.125rem;

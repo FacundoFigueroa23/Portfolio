@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 import './App.css';
 
+import NavBar from './components/NavBar'
 import Home from './components/Home';
 import About from './components/About';
 import Technologies from './components/Technologies';
@@ -24,7 +25,8 @@ export default function App() {
     <div className='container'>
       <ScrollToTop smooth style={{backgroundColor: 'black', borderRadius: '50%'}}
       component={<img src='https://api.iconify.design/uiw:caret-up.svg?color=%23ffffff' alt='CaretUp' />}/>
-      <Home lang={lang} changeLang={changeLang}/>
+      <NavBar lang={lang} changeLang={changeLang}/>
+      <Home lang={lang}/>
       <About lang={lang}/>
       <Technologies lang={lang}/>
       <Projects lang={lang}/>

@@ -1,15 +1,13 @@
 import React from 'react'
-import NavBar from './NavBar'
 import styles from './Home.module.css'
 import pdf from '../assets/FacundoLeonelFigueroa-DesarrolladorFrontend-CV.pdf'
 
 const es = ["Hola! Mi nombre es", "y soy", "Desarrollador Frontend", "Descarga mi CV", "Contrátame"]
 const en = ["Hi! My name is", "and I'm", "Frontend Developer", "Download my Resume", "Hire Me"]
 
-export default function Home({lang, changeLang}) {
+export default function Home({lang}) {
   return (
     <div className={styles.container}>
-        <NavBar lang={lang} changeLang={changeLang}/>
         <section className={styles.content}>
           <div className={styles.subContent}>
             <h3 className={styles.subTitle}>{lang ? es[0] : en[0]}</h3>
