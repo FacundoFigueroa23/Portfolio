@@ -19,10 +19,7 @@ export default function Technologies({lang}) {
           <Technology name='NodeJS' url='https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg' />
           <Technology name='ExpressJS' url='https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg' />
           <Technology name='PostgreSQL' url='https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg' />
-          <Technology name='Sequelize' url='https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-icon.svg' />
           <Technology name='MongoDB' url='https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg' />
-          <Technology name='Mongoose' 
-          url='https://res.cloudinary.com/mis-fotos/image/upload/v1654360593/Icons/Mongoose_xnua76.png' />
           <Technology name='Git' url='https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg' />
         </div>
     </div>
