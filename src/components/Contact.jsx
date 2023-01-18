@@ -50,8 +50,8 @@ export default function Contact({lang}) {
                 <Icon url='#' image='https://api.iconify.design/uiw:environment.svg?color=%23000000'
                 name='Location' user='Córdoba Capital, Argentina' />
 
-                <Icon url='https://www.linkedin.com/in/facundo-figueroa-dev' name='LinkedIn' 
-                image='https://api.iconify.design/uiw:linkedin.svg?color=%230077b5' user='/facundo-figueroa-dev' />
+                <Icon url='https://www.linkedin.com/in/facu-figueroa' name='LinkedIn' 
+                image='https://api.iconify.design/uiw:linkedin.svg?color=%230077b5' user='/facu-figueroa' />
 
                 <Icon url='https://github.com/FacundoFigueroa23' name='GitHub' 
                 image='https://api.iconify.design/uiw:github.svg?color=%23000000' user='/FacundoFigueroa23' />
