@@ -1,5 +1,5 @@
 .container {
-    /* height: 90vh; */
+    height: 100vh;
 
     background-color: white;
     color: black;
@@ -38,7 +38,7 @@
 
 .title {
     font-size: 3.5rem;
-
+    margin: 1rem;
     text-align: center;
 }
 
@@ -67,7 +67,7 @@
 
     text-decoration: none;
 
-    box-shadow: 0.2rem 0.2rem 0.5rem #7F8487;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(121, 121, 121);
 }
 
 .secondButton {

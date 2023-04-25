@@ -3,8 +3,8 @@ import styles from './Home.module.css'
 import cv from '../assets/CV-Facundo-Figueroa.pdf'
 import resume from '../assets/Resume-Facundo-Figueroa.pdf'
 
-const es = ["¡Hola! Mi nombre es", "y soy", "Desarrollador Frontend", "Descarga mi CV", "¡Contrátame!"]
-const en = ["Hi! My name is", "and I'm", "Frontend Developer", "Download my Resume", "Hire Me!"]
+const es = ["¡Hola! Soy", "y soy", "Desarrollador Full Stack", "Descarga mi CV", "¡Contrátame!"]
+const en = ["Hi! I'm", "and I'm", "Full Stack Developer", "Download my Resume", "Hire Me!"]
 
 export default function Home({lang}) {
   return (
